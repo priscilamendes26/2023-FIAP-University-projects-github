@@ -1,0 +1,39 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 1224px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 4px;
+    gap: 4px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(26, 0, 85, 0.1);
+    border-radius: 8px;
+
+}
+
+.legend {
+    display: none;
+    width: 0;
+    height: 0;
+    opacity: 0;
+
+}
+
+label {
+    display: none;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}

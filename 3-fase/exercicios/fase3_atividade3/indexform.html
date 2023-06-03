@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- chamada Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- chamada Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link para nossa CSS -->
+    <title>Criar Formulários</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <form class="container" name="cidades" id="nome" action="" method="post">
+        <legend class="legend">Onde deseja se hospedar?</legend>
+
+        <div class="box-form-item">
+            <label for="cidades">Destino</label>
+            <select name="Destino" id="destino">
+
+                <option value="Cidades" disabled selected> Destino</option>
+                <option value="Aracajú, SE">Aracajú, SE</option>
+                <option value="Belém, PA">Belém, PA</option>
+                <option value="Belo Horizonte, MG">Belo Horizonte, MG</option>
+                <option value="Boa Vista, RR">Boa Vista, RR</option>
+                <option value="Brasília, DF">Brasília, DF</option>
+                <option value="Campo Grande, MS">Campo Grande, MS</option>
+                <option value="Cuiabá, MT">Cuiabá, MT</option>
+                <option value="Curitiba, PR">Curitiba, PR</option>
+                <option value="Florianópolis, SC">Florianópolis, SC</option>
+                <option value="Fortaleza, CE">Fortaleza, CE</option>
+                <option value="Goiânia, GO">Goiânia, GO</option>
+                <option value="João Pessoa, PA">João Pessoa, PA</option>
+                <option value="Maceio, AL">Maceio, AL</option>
+                <option value="Macapá, AP">Macapá, AP</option>
+                <option value="Manaus, AM">Manaus, AM</option>
+                <option value="Natal, RN">Natal, RN</option>
+                <option value="Palmas, TO">Palmas, TO</option>
+                <option value="Porto Alegre, RS">Porto Alegre, RS</option>
+                <option value="Porto Velho, RO">Porto Velho, RO</option>
+                <option value="Recife, PE">Recife, PE</option>
+                <option value="Rio Branco, AC">Rio Branco, AC</option>
+                <option value="Rio de Janeiro, RJ">Rio de Janeiro, RJ</option>
+                <option value="Salvador, BA">Salvador, BA</option>
+                <option value="São Luíz, MA">São Luíz, MA</option>
+                <option value="São Paulo, SP">São Paulo, SP</option>
+                <option value="Teresina, PI">Teresina, PI</option>
+                <option value="Vitória, ES">Vitória, ES</option>
+
+            </select>
+        </div>
+
+        <div class="box-form-item">
+            <label for="data">Pessoas</label>
+            <select value="default" name="Número" id="Numero" placeholder="Pessoas">
+                <option value="default" disabled selected>Pessoas</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+
+            </select>
+        </div>
+
+
+        <div class="box-form-item">
+            <label for="data">Data de Entrada</label>
+            <input type="text" id="data" placeholder="Data de Entrada" onfocus="(this.type='date')"
+                onblur="(this.type='text')">
+        </div>
+
+        <div class="box-form-item">
+            <label for="data">Data de Saída</label>
+            <input type="text" id="data" placeholder="Data de Saída" onfocus="(this.type='date')"
+                onblur="(this.type='text')">
+        </div>
+
+        <div class="box-form-item">
+            <label for="hotéis">Pesquise</label>
+            <select value="default" name="Hotel" id="Hotel" placeholder="Pesquise Hotel">
+                <option value="default" disabled selected>Pesquise Hotel</option>
+                <option value="Hotel 1">Hotel 1</option>
+                <option value="Hotel 2">Hotel 2</option>
+                <option value="Hotel 3">Hotel 3</option>
+                <option value="Hotel 4">Hotel 4</option>
+                <option value="Hotel 5">Hotel 5</option>
+                <option value="Hotel 6">Hotel 6</option>
+               
+                <!-- <input type="submit" id="enviar" value="Hotéis"> -->
+        </div>
+    </form>
+</body>
+</html>
